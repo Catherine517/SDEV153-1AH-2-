@@ -1,0 +1,13 @@
+.cardMain {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 250px;
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    background-color: blue;
+}
