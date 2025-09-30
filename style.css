@@ -1,11 +1,37 @@
+.paddingBar {
+    display: block;
+    background-color: rgb(48, 48, 105);
+    width:100%;
+    height:15px;
+}
 .cardMain {
+    display: inline-flex;
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    min-height: 50px;
+    min-width: 250px;
+    padding: 15px;
+    border-style: none;
+    background-color: rgb(138, 138, 206);
+    text-align: center;
+}
+.anticard {
     display: flex;
     flex-direction: row;
     height: 40%;
     width: 100%;
-    min-height: 200px;
+    min-height: 50px;
     min-width: 250px;
-    /* padding: 15px; */
+    padding: 15px;
     border-style: none;
-    background-color: rgb(127, 127, 255);
+    background-color: rgb(250, 250, 250);
+}
+
+.centerParagraph {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ceneteredText{
+    text-align: center;
 }
